@@ -1,5 +1,5 @@
 const userModel = require("../Models/UserModel")
-const { hashPass, comparePass } = require("../utils/authUtils");
+const { hashPass, comparePass } = require("../Utils/AuthUtils");
 const jsonwebtoken = require("jsonwebtoken");
 const Subscription = require("../Models/SubscriptionModel");
 const { calculateExpirationDate } = require("../Controllers/SubscriptionController"); 
